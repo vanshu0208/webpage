@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Workout Zone</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Neonderthaw&display=swap" rel="stylesheet">
+<style>
+    body{
+        margin: 0px;
+        color: white;
+        padding: 0px;
+        background: url('img/3gym.jpeg');
+        height: 1000px;
+        font-family: 'Balsamiq Sans', cursive;
+    
+    }
+    .left{
+        
+        display: inline-block;
+        position: absolute;
+        top: 32px;
+        left: 37px;
+
+    }
+    .left img{
+
+        width: 127px;
+    
+    }
+    .left div{
+        text-align: center;
+        font-size: 16px;
+    }
+    .btn{
+        padding: 3px 6px;
+        margin: 1px 3px;
+        color: black;
+        background-color: wheat;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 15px;
+        font-family: 'Balsamiq Sans', cursive;
+    }
+    .btn:hover{
+        background-color:rgb(187, 180, 180);
+    }
+    .mid{
+        display: block;
+        width: 50%;
+        margin: 32px auto;
+    }
+    .right{
+        display: inline-block;
+        position: absolute;
+        top: 32px;
+        right: 37px;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+        
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 20px 36px ;
+          }
+
+          .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: grey;
+    
+          }
+          .container{
+            
+              margin: 62px 618px;
+    padding: 60px 87px;
+             border-radius: 10px;
+             width: 20%;
+              
+          }
+          .formgroup input{
+              text-align: center;
+              display: block;
+              width: 70%;
+    padding: 5px;
+    border: 5px solid grey;
+    margin: 6px auto;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: cursive;
+
+          }
+          .container h1{
+              text-align: center;
+              background-color: black;
+              border: 2px solid white;
+              border-radius: 10px;
+              font-size: 25px;
+              
+          }
+          .container button{
+              display: block;
+              margin: auto;
+              width: 77px;
+              padding: 5px;
+            
+
+          }
+
+</style>
+<body>
+    <header class="header"> 
+    <!--logo-->
+    <div class="left">
+        <img src="img/vector-hand-drawn-silhouette-strong-260nw-1271703832.jpg" alt="">
+        <div>
+            The Workout Gym
+        </div>
+   
+    </div>
+    <!--nav bar-->
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="#" >Home</a></li>
+            <li><a href="#" >About Us</a></li>
+            <li><a href="#" >Fitness Calculator</a></li>
+             <li><a href="#" >Contact Us</a></li>
+        </ul>
+    </div>
+<!--contact info-->
+    <div class="right">
+    <button class="btn">Call Us Now</button><button class="btn">Email Us</button>
+    </div>
+</header>
+      <div class="container">
+          <h1>Join the BEST GYM of DELHI now</h1>
+          <form action="noaction.php">
+             <div class="formgroup">
+                 <input type="text" name="" placeholder="Enter Your Name">
+                 <input type="text" name="" placeholder="Enter Your age">
+                 <input type="text" name="" placeholder="Enter Your gender">
+                 <input type="text" name="" placeholder="Enter Your locality">
+                 <input type="text" name="" placeholder="Enter Your contact number">
+             </div>
+<button class="btn">
+Submit
+</button>
+          </form>
+
+      </div>
+</body>
+</html>
